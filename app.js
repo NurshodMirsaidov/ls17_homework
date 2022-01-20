@@ -1,17 +1,17 @@
 // 1-topshiriq
 
-let doska = ""
+let shashkadoska = ""
 
 for (i=0; i<8; i ++ ){
     for(j = 0; j < 8; j ++ ){
         if(i % 2 != j % 2 ){
-            doska += '[ ]'
+            shashkadoska += '[ ]'
         }else{
-            doska += '[o]'
+            shashkadoska += '[o]'
         }
     }
-    console.log(doska);
-    doska = ''
+    console.log(shashkadoska);
+    shashkadoska = ''
 }
 
 
